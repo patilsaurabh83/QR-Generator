@@ -29,44 +29,9 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background: linear-gradient(45deg, 
-                    hsl(0, 30%, 50%), 
-                    hsl(15, 30%, 50%), 
-                    hsl(30, 30%, 50%), 
-                    hsl(45, 30%, 50%), 
-                    hsl(60, 30%, 50%), 
-                    hsl(75, 30%, 50%), 
-                    hsl(90, 30%, 50%), 
-                    hsl(105, 30%, 50%), 
-                    hsl(120, 30%, 50%), 
-                    hsl(135, 30%, 50%), 
-                    hsl(150, 30%, 50%), 
-                    hsl(165, 30%, 50%), 
-                    hsl(180, 30%, 50%), 
-                    hsl(195, 30%, 50%), 
-                    hsl(210, 30%, 50%), 
-                    hsl(225, 30%, 50%), 
-                    hsl(240, 30%, 50%), 
-                    hsl(255, 30%, 50%), 
-                    hsl(270, 30%, 50%), 
-                    hsl(285, 30%, 50%), 
-                    hsl(300, 30%, 50%), 
-                    hsl(315, 30%, 50%), 
-                    hsl(330, 30%, 50%), 
-                    hsl(345, 30%, 50%), 
-                    hsl(360, 30%, 50%)
-                );
+    background-color:black;
     background-size: 400% 400%;
-    animation: colorChange 20s infinite alternate;
-}
-
-@keyframes colorChange {
-    0% {
-        background-position: 0% 50%;
-    }
-    100% {
-        background-position: 100% 50%;
-    }
+    
 }
 
 main{
