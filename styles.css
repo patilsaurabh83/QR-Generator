@@ -55,7 +55,6 @@ main{
 }
 .top-logo-container img{
     width: 20%;
-    background-color: rgb(1, 197, 50);
     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.9);
 }
 .main-container{
