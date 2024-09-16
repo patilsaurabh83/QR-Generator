@@ -394,7 +394,8 @@ main{
 
 
 .footerContainer p{
-  color: rgb(0, 0, 0);
+/*   color: rgb(0, 0, 0); */
+  color: white;
   font-size: 1.3rem;
   font-family: Orbitron;
 }
@@ -405,6 +406,11 @@ main{
 .fa-copyright{
   font-size: 1.3rem;
   color: rgb(0, 0, 0);
+}
+
+.fa-copyright:before {
+    content: "\f1f9";
+    color: white;
 }
 /* responsive code below*/
 @media screen and (max-width:1920px) {
